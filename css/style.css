@@ -1,0 +1,9 @@
+/* Hide login and register buttons by default */
+#login-register {
+  display: none;
+}
+
+/* Show login and register buttons when targeted */
+#login-register:target {
+  display: block;
+}
